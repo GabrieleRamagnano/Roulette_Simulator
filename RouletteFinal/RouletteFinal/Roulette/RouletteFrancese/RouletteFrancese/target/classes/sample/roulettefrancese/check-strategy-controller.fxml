@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1050.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="miniroulette.view.CheckStrategyView">
+    <children>
+        <ImageView fitHeight="628.0" fitWidth="1102.0" layoutX="-11.0" layoutY="-13.0">
+            <image>
+                <Image url="@img/4.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="285.0" layoutY="157.0" prefHeight="61.0" prefWidth="516.0" text="SCEGLI LE STRATEGIE" textFill="#f8a31e">
+            <font>
+                <Font name="SansSerif Bold" size="45.0" />
+            </font>
+        </Label>
+        <Button fx:id="buttonStart" layoutX="791.0" layoutY="529.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="199.0" style="-fx-background-color: #33312E;" text="START" textFill="#f8a31e">
+            <font>
+                <Font size="28.0" />
+            </font>
+            <effect>
+                <Lighting>
+                    <bumpInput>
+                        <Shadow />
+                    </bumpInput>
+                    <light>
+                        <Light.Distant />
+                    </light>
+                </Lighting>
+            </effect>
+        </Button>
+        <Button fx:id="buttonTorna" layoutX="101.0" layoutY="26.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="199.0" style="-fx-background-color: #33312E;" text="TORNA" textFill="#f8a31e">
+            <font>
+                <Font size="28.0" />
+            </font>
+            <effect>
+                <Lighting>
+                    <bumpInput>
+                        <Shadow />
+                    </bumpInput>
+                    <light>
+                        <Light.Distant />
+                    </light>
+                </Lighting>
+            </effect>
+        </Button>
+      <Group fx:id="martingale" layoutX="228.0" layoutY="224.0">
+         <children>
+            <ImageView accessibleRole="BUTTON" fitHeight="59.0" fitWidth="72.0" layoutX="16.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/10.png" />
+               </image>
+               <effect>
+                  <Lighting diffuseConstant="1.14">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+            <Label layoutY="75.0" text="MARTINGALE" textFill="#f8a31e">
+               <font>
+                  <Font name="Serif Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="antiMartingale" layoutX="351.0" layoutY="224.0">
+         <children>
+            <ImageView accessibleRole="BUTTON" fitHeight="59.0" fitWidth="72.0" layoutX="24.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/10.png" />
+               </image>
+               <effect>
+                  <Lighting diffuseConstant="1.14">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+            <Label layoutX="-9.0" layoutY="75.0" text="ANTIMARTINGALE" textFill="#f8a31e">
+               <font>
+                  <Font name="Serif Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="labouchere" layoutX="533.0" layoutY="339.0">
+         <children>
+            <ImageView accessibleRole="BUTTON" fitHeight="59.0" fitWidth="72.0" layoutX="24.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/10.png" />
+               </image>
+               <effect>
+                  <Lighting diffuseConstant="1.14">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+            <Label layoutX="11.0" layoutY="63.0" text="LABOUCHERE" textFill="#f8a31e">
+               <font>
+                  <Font name="Serif Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="paroli" layoutX="414.0" layoutY="338.0">
+         <children>
+            <ImageView accessibleRole="BUTTON" fitHeight="59.0" fitWidth="72.0" layoutX="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/10.png" />
+               </image>
+               <effect>
+                  <Lighting diffuseConstant="1.14">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+            <Label layoutX="23.0" layoutY="64.0" text="PAROLI" textFill="#f8a31e">
+               <font>
+                  <Font name="Serif Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="fibonacci" layoutX="289.0" layoutY="337.0">
+         <children>
+            <ImageView accessibleRole="BUTTON" fitHeight="59.0" fitWidth="72.0" layoutX="17.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/10.png" />
+               </image>
+               <effect>
+                  <Lighting diffuseConstant="1.14">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+            <Label layoutX="9.0" layoutY="65.0" text="FIBONACCI" textFill="#f8a31e">
+               <font>
+                  <Font name="Serif Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="fisher" layoutX="470.0" layoutY="224.0">
+         <children>
+            <ImageView accessibleRole="BUTTON" fitHeight="59.0" fitWidth="72.0" layoutX="28.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/10.png" />
+               </image>
+               <effect>
+                  <Lighting diffuseConstant="1.14">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+            <Label layoutX="33.0" layoutY="75.0" text="FISHER" textFill="#f8a31e">
+               <font>
+                  <Font name="Serif Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="alembert" layoutX="590.0" layoutY="224.0">
+         <children>
+            <ImageView accessibleRole="BUTTON" fitHeight="59.0" fitWidth="72.0" layoutX="34.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/10.png" />
+               </image>
+               <effect>
+                  <Lighting diffuseConstant="1.14">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+            <Label layoutX="26.0" layoutY="76.0" text="ALEMBERT" textFill="#f8a31e">
+               <font>
+                  <Font name="Serif Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="contrAlembert" layoutX="716.0" layoutY="225.0">
+         <children>
+            <ImageView accessibleRole="BUTTON" fitHeight="59.0" fitWidth="72.0" layoutX="35.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/10.png" />
+               </image>
+               <effect>
+                  <Lighting diffuseConstant="1.14">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+            <Label layoutX="4.0" layoutY="74.0" text="CONTRALEMBERT" textFill="#f8a31e">
+               <font>
+                  <Font name="Serif Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="contrLabouchere" layoutX="656.0" layoutY="338.0">
+         <children>
+            <ImageView accessibleRole="BUTTON" fitHeight="59.0" fitWidth="72.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/10.png" />
+               </image>
+               <effect>
+                  <Lighting diffuseConstant="1.14">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+            <Label layoutX="-5.0" layoutY="64.0" text="CONTRLABOUCHERE" textFill="#f8a31e">
+               <font>
+                  <Font name="Serif Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+
+    </children>
+</AnchorPane>

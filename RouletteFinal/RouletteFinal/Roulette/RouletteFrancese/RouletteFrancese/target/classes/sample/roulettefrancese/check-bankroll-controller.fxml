@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1050.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="miniroulette.view.CheckBankrollView">
+   <children>
+      <ImageView fitHeight="628.0" fitWidth="1102.0" layoutX="-11.0" layoutY="-13.0">
+         <image>
+            <Image url="@img/4.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="304.0" layoutY="226.0" prefHeight="61.0" prefWidth="286.0" text="BANKROLL" textFill="#f8a31e">
+         <font>
+            <Font name="SansSerif Bold" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="304.0" layoutY="310.0" prefHeight="61.0" prefWidth="365.0" text="GIRI" textFill="#f8a31e">
+         <font>
+            <Font name="SansSerif Bold" size="45.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fieldBankroll" alignment="CENTER_RIGHT" layoutX="584.0" layoutY="238.0" prefHeight="37.0" prefWidth="183.0" promptText="euro" style="-fx-background-color: #33312E; -fx-border-color: #B3962D; -fx-border-radius: 5;-fx-text-inner-color: #F8A31E;">
+         <font>
+            <Font name="SansSerif Regular" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="fieldNumeroGiri" alignment="CENTER_RIGHT" layoutX="584.0" layoutY="322.0" prefHeight="37.0" prefWidth="183.0" promptText="numero" style="-fx-background-color: #33312E; -fx-border-color: #B3962D; -fx-border-radius: 5; -fx-text-inner-color: #F8A31E;">
+         <font>
+            <Font name="SansSerif Regular" size="13.0" />
+         </font>
+      </TextField>
+      <Button fx:id="buttonNext" layoutX="791.0" layoutY="529.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="199.0" style="-fx-background-color: #33312E;" text="AVANTI" textFill="#f8a31e">
+         <font>
+            <Font size="28.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="buttonTorna" layoutX="101.0" layoutY="26.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="199.0" style="-fx-background-color: #33312E;" text="TORNA" textFill="#f8a31e">
+         <font>
+            <Font size="28.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+
+   </children>
+</AnchorPane>

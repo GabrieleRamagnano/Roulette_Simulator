@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1050.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="miniroulette.view.BetView">
+   <children>
+      <ImageView fitHeight="628.0" fitWidth="1102.0" layoutX="-11.0" layoutY="-13.0">
+         <image>
+            <Image url="@img/4.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="309.0" layoutY="227.0" prefHeight="61.0" prefWidth="286.0" text="POSTA" textFill="#f8a31e">
+         <font>
+            <Font name="SansSerif Bold" size="45.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fieldBankroll" alignment="CENTER_RIGHT" layoutX="589.0" layoutY="239.0" prefHeight="37.0" prefWidth="183.0" promptText="euro" style="-fx-background-color: #33312E; -fx-border-color: #B3962D; -fx-border-radius: 5;-fx-text-inner-color: #F8A31E;">
+         <font>
+            <Font name="SansSerif Regular" size="13.0" />
+         </font>
+      </TextField>
+      <Button fx:id="buttonClose" layoutX="791.0" layoutY="529.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="199.0" style="-fx-background-color: #33312E;" text="PUNTA" textFill="#f8a31e">
+         <font>
+            <Font size="28.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Label layoutX="309.0" layoutY="312.0" prefHeight="61.0" prefWidth="286.0" text="COMB" textFill="#f8a31e">
+         <font>
+            <Font name="SansSerif Bold" size="45.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="choiceBox" layoutX="589.0" layoutY="320.0" prefHeight="37.0" prefWidth="183.0" style="-fx-border-radius: 5; -fx-border-color: #B3962D; -fx-background-color: #33312E; -fx-content-display: RIGHT;" />
+
+   </children>
+</AnchorPane>

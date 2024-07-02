@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/RouletteFinal.iml" filepath="$PROJECT_DIR$/.idea/RouletteFinal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RouletteFinal/Roulette/RouletteFrancese/RouletteFrancese/RouletteFrancese.iml" filepath="$PROJECT_DIR$/RouletteFinal/Roulette/RouletteFrancese/RouletteFrancese/RouletteFrancese.iml" />
+    </modules>
+  </component>
+</project>
