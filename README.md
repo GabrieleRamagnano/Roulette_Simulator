@@ -51,16 +51,16 @@ Ecco di seguito una brevissima traccia di esecuzione dell’applicazione.
 3. Si possono testare più strategie in contemporanea. Inoltre, qualora venisse scelta più volte la medesima strategia, occorre impostare al suo interno parametri della puntata differenti.
    
 
-<img src="image/choose_your_strategy.png" alt="Scegli la tua strategia" width="750" height="450">
+<img src="image/choose_your_strategy.png" alt="Scegli la tua strategia" width="700" height="400">
 
 4. Il valore della posta non deve essere maggiore di quello del bankroll: d’altro canto sarebbe assurdo puntare una somma superiore a quella che si possiede! Inoltre è possibile, come già detto in precedenza, selezionare solo combinazioni esterne oltre ad una combinazione “speciale” chiamata _Random_ per la quale sarà l’applicazione a scegliere al posto vostro.
    
 
-<img src="image/make_your_bet.png" alt="Personalizza la tua puntata" width="750" height="450">
+<img src="image/make_your_bet.png" alt="Personalizza la tua puntata" width="700" height="400">
 
 5. Il risultato finale riassume tramite una tabella e un grafico gli esiti della simulazione per ogni strategia selezionata. A tal proposito, sono state utilizzate due tipi di strategie che verranno qui di sequito descritte per una migliore lettura del grafico:
 
-<img src="image/see_best_strategy.jpg" alt="Tabella e Grafico" width="750" height="450">
+<img src="image/see_best_strategy.jpg" alt="Tabella e Grafico" width="700" height="400">
 
 **Metodo Martingale:**
 - _Puntata_: Rosso/Nero, Pari/Dispari, 1-18/19-36.
