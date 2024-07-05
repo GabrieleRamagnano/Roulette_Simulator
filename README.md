@@ -57,7 +57,7 @@ Ecco di seguito una brevissima traccia di esecuzione dell’applicazione.
 
 5. Il risultato finale riassume tramite una tabella e un grafico gli esiti della simulazione per ogni strategia selezionata. A tal proposito, sono state utilizzate due tipi di strategie che verranno qui di sequito descritte per una migliore lettura del grafico:
    
-![Tabella e Grafico](image/see_best_strategy.png)
+![Tabella e Grafico](image/see_best_strategy.jpg)
 
 
 **Metodo Martingale:**
