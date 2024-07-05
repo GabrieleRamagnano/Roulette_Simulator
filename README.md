@@ -63,20 +63,20 @@ Ecco di seguito una brevissima traccia di esecuzione dell’applicazione.
 <img src="image/see_best_strategy.jpg" alt="Tabella e Grafico" width="750" height="450">
 
 **Metodo Martingale:**
-_Puntata_: Rosso/Nero, Pari/Dispari, 1-18/19-36.
-_Perdita_: si raddoppia puntata iniziale.
-_Vincita_: si torna all’importo iniziale.
-_Bonus_: aumenta le probabilità di rientrare nelle perdite ottenendo un minimo guadagno.
-_Malus_: rischio di puntare cifre elevate.
+- _Puntata_: Rosso/Nero, Pari/Dispari, 1-18/19-36.
+- _Perdita_: si raddoppia puntata iniziale.
+- _Vincita_: si torna all’importo iniziale.
+- _Bonus_: aumenta le probabilità di rientrare nelle perdite ottenendo un minimo guadagno.
+- _Malus_: rischio di puntare cifre elevate.
 
 **Metodo Fisher:**
-_Puntata_: Rosso/Nero, Pari/Dispari, 1-18/19-36.
-_Perdita_: 4 perdite consecutive portano ad un aumento della posta. La posta si calcola sommando ultime tre perdite. Se perdi di nuovo, ripeti l’ultima posta.
-_Vincita_: si ritorna alla puntata iniziale.
-_Bonus_: si perde più lentamente rispetto al metodo Martingale.
-_Malus_: minimo (eventuale) guadagno.
+- _Puntata_: Rosso/Nero, Pari/Dispari, 1-18/19-36.
+- _Perdita_: 4 perdite consecutive portano ad un aumento della posta. La posta si calcola sommando ultime tre perdite. Se perdi di nuovo, ripeti l’ultima posta.
+- _Vincita_: si ritorna alla puntata iniziale.
+- _Bonus_: si perde più lentamente rispetto al metodo Martingale.
+- _Malus_: minimo (eventuale) guadagno.
 
 ## Conclusione
-Tutto ciò che è stato presentato riguardo all’analisi e al design del progetto non è che un riassunto della relazione che si può tranquillamente reperire nella repo. Il progetto è stato sviluppato da un gruppo di due persone, il sottoscritto e la mia partner [Kristina Volkova]([https://github.com/volkovalolka](https://github.com/volkovalolka)). Consiglio inoltre, per chi fosse interessato, due interessanti letture che hanno sicuramente ispirato la scelta del progetto: [Il giocatore]([https://www.google.it/books/edition/Il_giocatore_Mondadori/qc2pCwAAQBAJ?hl=it&gbpv=1&dq=Il+giocatore+Fedor&printsec=frontcover](https://www.google.it/books/edition/Il_giocatore_Mondadori/qc2pCwAAQBAJ?hl=it&gbpv=1&dq=Il+giocatore+Fedor&printsec=frontcover))  di F. Dostoevskij e [Fate il nostro gioco]([https://books.google.it/books/about/Fate_il_nostro_gioco.html?id=zG1uDwAAQBAJ&source=kp_book_description&redir_esc=y](https://books.google.it/books/about/Fate_il_nostro_gioco.html?id=zG1uDwAAQBAJ&source=kp_book_description&redir_esc=y)) di Paolo Canova e Diego Rizzuto .
+Tutto ciò che è stato presentato riguardo all’analisi e al design del progetto non è che un riassunto della relazione che si può tranquillamente reperire nella repo. Il progetto è stato sviluppato da un gruppo di due persone, il sottoscritto e la mia partner [Kristina Volkova](https://github.com/volkovalolka). Consiglio inoltre, per chi fosse interessato, due interessanti letture che hanno sicuramente ispirato la scelta del progetto: [Il giocatore](https://www.google.it/books/edition/Il_giocatore_Mondadori/qc2pCwAAQBAJ?hl=it&gbpv=1&dq=Il+giocatore+Fedor&printsec=frontcover)  di F. Dostoevskij e [Fate il nostro gioco](https://books.google.it/books/about/Fate_il_nostro_gioco.html?id=zG1uDwAAQBAJ&source=kp_book_description&redir_esc=y) di Paolo Canova e Diego Rizzuto .
 
 
