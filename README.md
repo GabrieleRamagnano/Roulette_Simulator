@@ -45,19 +45,20 @@ Ecco di seguito una brevissima traccia di esecuzione dell’applicazione.
 
 1.  Impostazione del bankroll e del numero complessivo di lanci che verranno effettuati. Come è intuibile, è escluso che siano presenti dei valori negativi e il bankroll deve essere inoltre una quantità positiva.
 
-![Imposta bankroll e lanci](image/bankroll_page.png)
+
+<img src="image/bankroll_page.png" alt="Imposta bankroll e lanci" width="800" height="500">
 
 3. Si possono testare più strategie in contemporanea. Inoltre, qualora venisse scelta più volte la medesima strategia, occorre impostare al suo interno parametri della puntata differenti.
    
-![Scegli la tua strategia](image/choose_your_strategy.png)
+
+<img src="image/choose_your_strategy.png" alt="Scegli la tua strategia" width="300" height="200">
 
 4. Il valore della posta non deve essere maggiore di quello del bankroll: d’altro canto sarebbe assurdo puntare una somma superiore a quella che si possiede! Inoltre è possibile, come già detto in precedenza, selezionare solo combinazioni esterne oltre ad una combinazione “speciale” chiamata _Random_ per la quale sarà l’applicazione a scegliere al posto vostro.
    
-![Personalizza la tua puntata](image/make_your_bet.png)
+
+<img src="image/make_your_bet.png" alt="Personalizza la tua puntata" width="300" height="200">
 
 5. Il risultato finale riassume tramite una tabella e un grafico gli esiti della simulazione per ogni strategia selezionata. A tal proposito, sono state utilizzate due tipi di strategie che verranno qui di sequito descritte per una migliore lettura del grafico:
-   
-![Tabella e Grafico](image/see_best_strategy.jpg)
 
 <img src="image/see_best_strategy.jpg" alt="Tabella e Grafico" width="300" height="200">
 
