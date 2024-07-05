@@ -1,6 +1,6 @@
 # Roulette Simulation
 
->«Ma guarda un po'!» si riscaldava la nonna. «Vorrà uscire o no questo zero maledetto? Non voglio più vivere se non lo vedo uscire e starò qui finché non esce! È tutta colpa di quel maledetto croupier riccioluto se non esce mai! Aleksej Ivanoviè, punta due monete d'oro in una volta! Hai già perduto tanto che anche se esce lo zero non vinciamo niente.» `<br>` «Ma nonna!» <br> «Punta, punta! Non son denari tuoi.»
+>`<br>`«Ma guarda un po'!» si riscaldava la nonna. «Vorrà uscire o no questo zero maledetto? Non voglio più vivere se non lo vedo uscire e starò qui finché non esce! È tutta colpa di quel maledetto croupier riccioluto se non esce mai! Aleksej Ivanoviè, punta due monete d'oro in una volta! Hai già perduto tanto che anche se esce lo zero non vinciamo niente.» <br> `<br>` «Ma nonna!» <br> «Punta, punta! Non son denari tuoi.»
 >
 >F. Dostoevskij - Il giocatore 
 
