@@ -31,11 +31,10 @@ I componenti che definiscono le meccaniche principali dell’applicazione sono r
 - **Croupier**: è il cervello dell’intera applicazione dal momento che decide per ogni singola giocata chi vince e chi perde.
 
 ## Limiti e potenzialità del software
-**Dominio del problema**
-L’applicazione sviluppata è una versione minimale del gioco della Roulette Francese. In particolare sono state prese in considerazione solo le strategie che fanno uso di combinazioni esterne (Rosso, Nero, Pari, Dispari, Parte Alta, Parte Bassa). Questa è la tipologia di strategie più numerosa ma esistono anche quelle che sfruttano le combinazioni interne.
 
-**Classe Player**
-Dal momento che il simulatore si concentra esclusivamente sulle strategie, nel progetto è quasi superfluo creare una classe _Player_ per la gestione dei giocatori. Tuttavia la scelta è risultata indispensabile sia per fornire maggiore modularità al progetto sia per permetterne una futura espansione qualora di decidesse di conferire un più alto gradi di personalizzazione alla simulazione.
+**Dominio del problema** <br> L’applicazione sviluppata è una versione minimale del gioco della Roulette Francese. In particolare sono state prese in considerazione solo le strategie che fanno uso di combinazioni esterne (Rosso, Nero, Pari, Dispari, Parte Alta, Parte Bassa). Questa è la tipologia di strategie più numerosa ma esistono anche quelle che sfruttano le combinazioni interne.
+
+**Classe Player** <br> Dal momento che il simulatore si concentra esclusivamente sulle strategie, nel progetto è quasi superfluo creare una classe _Player_ per la gestione dei giocatori. Tuttavia la scelta è risultata indispensabile sia per fornire maggiore modularità al progetto sia per permetterne una futura espansione qualora di decidesse di conferire un più alto gradi di personalizzazione alla simulazione.
 
 ## Esempio di utilizzo del progetto
 
