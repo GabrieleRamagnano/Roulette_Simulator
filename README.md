@@ -45,7 +45,7 @@ Ecco di seguito una brevissima traccia di esecuzione dell’applicazione.
 
 1.  Impostazione del bankroll e del numero complessivo di lanci che verranno effettuati. Come è intuibile, è escluso che siano presenti dei valori negativi e il bankroll deve essere inoltre una quantità positiva.
 
-<img src="image/bankroll_page.png" alt="Imposta bankroll e lanci" width="750" height="450">
+<img src="image/bankroll_page.png" alt="Imposta bankroll e lanci" width="700" height="400">
 
 
 3. Si possono testare più strategie in contemporanea. Inoltre, qualora venisse scelta più volte la medesima strategia, occorre impostare al suo interno parametri della puntata differenti.
