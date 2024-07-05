@@ -59,6 +59,7 @@ Ecco di seguito una brevissima traccia di esecuzione dell’applicazione.
    
 ![Tabella e Grafico](image/see_best_strategy.jpg)
 
+<img src="image/see_best_strategy.jpg" alt="Tabella e Grafico" width="300" height="200">
 
 **Metodo Martingale:**
 _Puntata_: Rosso/Nero, Pari/Dispari, 1-18/19-36.
